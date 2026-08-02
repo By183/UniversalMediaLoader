@@ -1,0 +1,60 @@
+# ---- Build output / CMake ----
+build/
+/dist/
+/release/
+*.pdb
+*.obj
+*.ilk
+*.exe
+*.dll
+CMakeCache.txt
+CMakeFiles/
+.vs/
+cmake_install.cmake
+*.vcxproj
+*.slnx
+*.vcxproj.filters
+*.user
+
+# ---- Qt autogen ----
+*_autogen/
+*_autogen.dir/
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+
+# ---- Test build artifacts (keep tests/*.cpp sources) ----
+tests/build/
+tests/*.dir/
+tests/*_autogen/
+
+# ---- Test download output (actual downloaded media files) ----
+downloads_test/
+downloads_mp3_test/
+downloads_cyrillic_test/
+
+# ---- Bundled download engine binaries (fetched by EmbeddedToolsManager/EngineUpdater) ----
+/yt-dlp.exe
+/yt-dlp.exe.*
+/ffmpeg/
+/app_icon.ico
+/icon.ico
+
+# ---- Old Python prototype (superseded by C++ rewrite) ----
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+/app.py
+/main.py
+/download_manager.py
+/requirements.txt
+*.spec
+*.egg-info/
+
+# ---- Misc ----
+*.log
+*.tmp
+.DS_Store
+Thumbs.db

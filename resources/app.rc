@@ -1,0 +1,3 @@
+IDI_ICON1 ICON "icon.ico"
+101 RCDATA "../ffmpeg/ffmpeg.exe"
+102 RCDATA "../ffmpeg/ffprobe.exe"

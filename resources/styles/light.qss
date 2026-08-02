@@ -1,0 +1,252 @@
+/* Light Theme Stylesheet */
+QMainWindow {
+    background-color: #CFCFCF;
+    color: #1F2937;
+}
+
+#SidebarWidget {
+    background-color: #C2C2C6;
+    color: #1F2937;
+    border: none;
+}
+
+#MainContentWidget, #MainPanelWidget {
+    background-color: #CFCFCF;
+    color: #1F2937;
+}
+
+QLabel {
+    color: #1F2937;
+}
+
+QLabel.MutedLabel {
+    color: #374151;
+}
+
+QCheckBox {
+    color: #1F2937;
+    font-size: 12px;
+    spacing: 8px;
+}
+
+QCheckBox::indicator {
+    width: 16px;
+    height: 16px;
+    border: 1px solid #9CA3AF;
+    border-radius: 4px;
+    background-color: #FFFFFF;
+}
+
+QCheckBox::indicator:hover {
+    border-color: #3B82F6;
+}
+
+QCheckBox::indicator:checked {
+    background-color: #3B82F6;
+    border: 1px solid #2563EB;
+}
+
+QLineEdit, QTextEdit, QPlainTextEdit {
+    background-color: #FFFFFF;
+    color: #1F2937;
+    border: 1px solid #9CA3AF;
+    border-radius: 6px;
+    padding: 10px 12px;
+}
+
+QLineEdit::placeholder {
+    color: #6B7280;
+}
+
+QLineEdit:focus {
+    border: 1px solid #3B82F6;
+}
+
+.SidebarSeparator {
+    background-color: #9CA3AF;
+    max-height: 1px;
+    min-height: 1px;
+    border: none;
+}
+
+QPushButton.SidebarButton {
+    background-color: transparent;
+    color: #1F2937;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 12px;
+    text-align: left;
+    font-size: 12px;
+}
+
+QPushButton.SidebarButton:hover {
+    background-color: #B8B8BD;
+    color: #111827;
+}
+
+QPushButton.SidebarButton:pressed {
+    background-color: #9CA3AF;
+    color: #000000;
+}
+
+ToggleSwitch {
+    qproperty-textColor: #1F2937;
+    font-size: 12px;
+}
+
+/* MainPanel specific button and input styles */
+QPushButton#PasteButton {
+    background-color: #6366F1;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+QPushButton#PasteButton:hover {
+    background-color: #4F46E5;
+}
+
+QPushButton#PasteButton:pressed {
+    background-color: #4338CA;
+}
+
+QPushButton#ThumbnailButton {
+    background-color: #FFFFFF;
+    color: #1F2937;
+    border: 1px solid #9CA3AF;
+    border-radius: 6px;
+    padding: 8px 14px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+QPushButton#ThumbnailButton:hover {
+    background-color: #F3F4F6;
+    border-color: #3B82F6;
+}
+
+QPushButton#ThumbnailButton:pressed {
+    background-color: #E5E7EB;
+}
+
+QPushButton#AudioOnlyButton {
+    background-color: #0D9488;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+QPushButton#AudioOnlyButton:hover {
+    background-color: #0F766E;
+}
+
+QPushButton#AudioOnlyButton:pressed {
+    background-color: #115E59;
+}
+
+QPushButton#DownloadButton {
+    background-color: #3B82F6;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+QPushButton#DownloadButton:hover {
+    background-color: #2563EB;
+}
+
+QPushButton#DownloadButton:pressed {
+    background-color: #1D4ED8;
+}
+
+QPushButton#PauseButton {
+    background-color: #F97316;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+QPushButton#PauseButton:hover {
+    background-color: #EA580C;
+}
+
+QPushButton#PauseButton:pressed {
+    background-color: #C2410C;
+}
+
+QPushButton#CancelButton {
+    background-color: #EF4444;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 16px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+QPushButton#CancelButton:hover {
+    background-color: #DC2626;
+}
+
+QPushButton#CancelButton:pressed {
+    background-color: #B91C1C;
+}
+
+QComboBox#QualityComboBox {
+    background-color: #FFFFFF;
+    color: #1F2937;
+    border: 1px solid #9CA3AF;
+    border-radius: 6px;
+    padding: 8px 12px;
+    font-size: 12px;
+    font-weight: bold;
+    min-width: 80px;
+}
+
+QComboBox#QualityComboBox::drop-down {
+    border: none;
+    width: 20px;
+}
+
+QComboBox#QualityComboBox QAbstractItemView {
+    background-color: #FFFFFF;
+    color: #1F2937;
+    selection-background-color: #3B82F6;
+    selection-color: #FFFFFF;
+    border: 1px solid #9CA3AF;
+}
+
+QProgressBar#DownloadProgressBar {
+    background-color: #B8B8BD;
+    color: #1F2937;
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: bold;
+}
+
+QProgressBar#DownloadProgressBar::chunk {
+    background-color: #3B82F6;
+    border-radius: 6px;
+}
+
+QPlainTextEdit#LogBox {
+    background-color: #FFFFFF;
+    color: #1F2937;
+    border: 1px solid #9CA3AF;
+    border-radius: 8px;
+    padding: 8px;
+}
