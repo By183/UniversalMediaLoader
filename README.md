@@ -50,7 +50,7 @@ cmake --build build --config Release
 
 ## 🙏 Credits
 
-Built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org/). The original concept was ported from an earlier Python version.
+Built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org/). 
 
 ---
 
@@ -105,5 +105,3 @@ cmake --build build --config Release
 ```
 
 ## 🙏 Благодарности
-
-Сделано на основе [yt-dlp](https://github.com/yt-dlp/yt-dlp) и [ffmpeg](https://ffmpeg.org/). Концепция перенесена из более ранней версии на Python.
