@@ -4,6 +4,12 @@
 
 **Universal Media Loader** is a fast, low-overhead C++/Qt6 rewrite of an earlier Python/CustomTkinter tool. It downloads videos and streams from **YouTube**, **Twitch**, and **TikTok**, and extracts audio as MP3 — with quick startup and a small memory footprint.
 
+## ⬇️ Download
+
+Get the latest ready-to-run Windows build (no install, no repo clone, no build needed):
+
+[![Download Universal Media Loader](https://img.shields.io/badge/Download-Universal_Media_Loader-v2.0.0-blue?style=for-the-badge&logo=download&logoColor=white)](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader.exe)
+
 ## ✨ Features
 
 - ⬇️ Video download at multiple qualities
@@ -55,6 +61,12 @@ Built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://
 📥 Легковесное приложение для скачивания видео и стримов, а также извлечения аудио в MP3.
 
 **Universal Media Loader** — быстрый C++/Qt6 клиент с низким уровнем накладных расходов, созданный как полный перенос более ранней версии на Python/CustomTkinter. Приложение скачивает видео и стримы с **YouTube**, **Twitch** и **TikTok**, а также извлекает аудио в MP3 — с быстрым запуском и малым потреблением памяти.
+
+## ⬇️ Скачать
+
+Готовая сборка для Windows (без установки, без клонирования репозитория, без сборки):
+
+[![Скачать Universal Media Loader](https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Universal_Media_Loader-v2.0.0-blue?style=for-the-badge&logo=download&logoColor=white)](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader.exe)
 
 ## ✨ Возможности
 
