@@ -6,7 +6,7 @@
 
 ## ⬇️ Download
 
-Get the latest ready-to-run Windows build (no install, no repo clone, no build needed):
+Grab the latest ready-to-run UniversalMediaLoader.exe from the Releases page — it's a single self-contained file, no dependencies or extra files needed. Just download and launch.
 
 [![Download Universal Media Loader](https://img.shields.io/badge/Download-Universal_Media_Loader-v2.0.0-blue?style=for-the-badge&logo=download&logoColor=white)](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader.exe)
 
@@ -64,7 +64,7 @@ Built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://
 
 ## ⬇️ Скачать
 
-Готовая сборка для Windows (без установки, без клонирования репозитория, без сборки):
+Готовый к запуску UniversalMediaLoader.exe можно забрать на странице релизов — это один самодостаточный файл, без зависимостей. Просто скачайте и запустите.
 
 [![Скачать Universal Media Loader](https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Universal_Media_Loader-v2.0.0-blue?style=for-the-badge&logo=download&logoColor=white)](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader.exe)
 
