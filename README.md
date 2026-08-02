@@ -24,11 +24,6 @@
 - CMake
 - Wraps [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org/) as external tools — it does not reimplement extraction logic
 
-## 📸 Screenshots
-<img width="791" height="427" alt="image" src="https://github.com/user-attachments/assets/b7a13606-128c-4b63-9c33-d53a6a151e52" />
-
-Add screenshots here.
-
 ## 🏗️ Requirements / how to build
 
 On Windows, with [Qt 6](https://www.qt.io/download-qt-installer) and [CMake](https://cmake.org/) installed:
@@ -80,10 +75,6 @@ Built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://
 - Qt6 (Widgets)
 - CMake
 - Использует [yt-dlp](https://github.com/yt-dlp/yt-dlp) и [ffmpeg](https://ffmpeg.org/) как внешние инструменты — не переписывает логику извлечения
-
-## 📸 Скриншоты
-
-Добавьте скриншоты здесь.
 
 ## 🏗️ Требования и сборка
 
