@@ -6,9 +6,9 @@
 
 ## ⬇️ Download
 
-Grab the latest ready-to-run UniversalMediaLoader.exe from the Releases page — it's a single self-contained file, no dependencies or extra files needed. Just download and launch.
+Grab the latest ready-to-run **UniversalMediaLoader.exe** from the Releases page — it's a single self-contained file, no dependencies or extra files needed. Just download and launch.
 
-[![Download Universal Media Loader](https://img.shields.io/badge/Download-Universal_Media_Loader-v2.0.0-blue?style=for-the-badge&logo=download&logoColor=white)](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader.exe)
+👉 [**⬇️ Download UniversalMediaLoader.exe**](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader.exe)
 
 ## ✨ Features
 
@@ -64,9 +64,9 @@ Built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://
 
 ## ⬇️ Скачать
 
-Готовый к запуску UniversalMediaLoader.exe можно забрать на странице релизов — это один самодостаточный файл, без зависимостей. Просто скачайте и запустите.
+Готовый к запуску **UniversalMediaLoader.exe** можно забрать на странице релизов — это один самодостаточный файл, без зависимостей. Просто скачайте и запустите.
 
-[![Скачать Universal Media Loader](https://img.shields.io/badge/%D0%A1%D0%BA%D0%B0%D1%87%D0%B0%D1%82%D1%8C-Universal_Media_Loader-v2.0.0-blue?style=for-the-badge&logo=download&logoColor=white)](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader.exe)
+👉 [**⬇️ Скачать UniversalMediaLoader.exe**](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader.exe)
 
 ## ✨ Возможности
 
