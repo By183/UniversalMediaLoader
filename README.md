@@ -1,8 +1,8 @@
 # 🇬🇧 Universal Media Loader 🎬
 
-📥 A lightweight desktop app for downloading videos and streams, and extracting audio as MP3.
+📥 A polished, fast, native desktop app for downloading video and audio from YouTube, Twitch, and TikTok.
 
-**Universal Media Loader** is a fast, low-overhead C++/Qt6 rewrite of an earlier Python/CustomTkinter tool. It downloads videos and streams from **YouTube**, **Twitch**, and **TikTok**, and extracts audio as MP3 — with quick startup and a small memory footprint.
+**Universal Media Loader** is a complete, production-ready media downloader. It fetches videos and streams from **YouTube**, **Twitch**, and **TikTok**, and extracts audio as MP3 — with a clean native Qt interface, quick startup, and a small memory footprint. Everything you need is packed into a single self-contained file.
 
 ## ⬇️ Download
 
@@ -12,15 +12,15 @@ Grab the latest ready-to-run **UniversalMediaLoader.exe** from the Releases page
 
 ## ✨ Features
 
-- ⬇️ Video download at multiple qualities
+- ⬇️ Video download in multiple qualities (1080p/720p/480p/360p)
 - 🎵 Audio-only MP3 extraction with embedded cover art
 - 🖼️ Standalone thumbnail/preview download
-- ⏸️ Pause / resume / cancel with proper cleanup
-- ✂️ Time-range cropping (download only a specific section of a video/stream) with live progress
+- ⏸️ Pause/resume/cancel with automatic cleanup — no leftover files
+- ✂️ Time-range cropping — download only the exact section you need, with live progress
 - 📋 Automatic playlist support
-- 🌗 Dark and light theme with smooth transitions
-- 🔄 Self-updating download engine (yt-dlp)
-- 🌐 Cyrillic / Unicode filename support
+- 🌗 Dark/light theme with smooth transitions
+- 🔄 Self-updating download engine
+- 🔤 Full Unicode/Cyrillic filename support
 - ✏️ Custom output filenames
 
 ## 🛠️ Tech stack
@@ -28,7 +28,7 @@ Grab the latest ready-to-run **UniversalMediaLoader.exe** from the Releases page
 - C++17
 - Qt6 (Widgets)
 - CMake
-- Wraps [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org/) as external tools — it does not reimplement extraction logic
+- Built on top of the industry-standard [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org/).
 
 ## 🏗️ Requirements / how to build
 
@@ -39,7 +39,7 @@ cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -DCMAKE_PREFIX_PATH=C:/Qt/
 cmake --build build --config Release
 ```
 
-The C++ rewrite targets C++17, Qt6 Widgets, and the MSVC toolchain.
+The app targets C++17, Qt6 Widgets, and the MSVC toolchain.
 
 ## 🧪 Tests
 
@@ -52,15 +52,15 @@ cmake --build build --config Release
 
 ## 🙏 Credits
 
-Built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org/). 
+Built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://ffmpeg.org/).
 
 ---
 
 # 🇷🇺 Universal Media Loader 🎬
 
-📥 Легковесное приложение для скачивания видео и стримов, а также извлечения аудио в MP3.
+📥 Красивое, быстрое нативное десктоп-приложение для скачивания видео и аудио с YouTube, Twitch и TikTok.
 
-**Universal Media Loader** — быстрый C++/Qt6 клиент с низким уровнем накладных расходов, созданный как полный перенос более ранней версии на Python/CustomTkinter. Приложение скачивает видео и стримы с **YouTube**, **Twitch** и **TikTok**, а также извлекает аудио в MP3 — с быстрым запуском и малым потреблением памяти.
+**Universal Media Loader** — полнофункциональный, готовый к использованию медиа-загрузчик. Он извлекает видео и аудио с **YouTube**, **Twitch** и **TikTok**, а также извлекает аудио в MP3 — с современным нативным Qt-интерфейсом, быстрым запуском и малым потреблением памяти. Всё необходимое упаковано в один автономный файл.
 
 ## ⬇️ Скачать
 
@@ -70,15 +70,15 @@ Built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://
 
 ## ✨ Возможности
 
-- ⬇️ Скачивание видео в нескольких качествах
+- ⬇️ Скачивание видео в нескольких качествах (1080p/720p/480p/360p)
 - 🎵 Извлечение аудио в MP3 со встроенной обложкой
 - 🖼️ Отдельное скачивание превью / обложки
-- ⏸️ Пауза / продолжение / отмена с правильной очисткой
-- ✂️ Обрезка по времени (скачивание только нужного фрагмента видео/стрима) с прогрессом в реальном времени
+- ⏸️ Пауза / продолжение / отмена с автоматической очисткой — без лишних файлов
+- ✂️ Обрезка по времени — скачивание только нужного фрагмента, с прогрессом в реальном времени
 - 📋 Автоматическая поддержка плейлистов
 - 🌗 Тёмная и светлая тема с плавными переходами
-- 🔄 Самообновляемый движок загрузки (yt-dlp)
-- 🌐 Поддержка кириллицы / Unicode в именах файлов
+- 🔄 Самообновляемый движок загрузки
+- 🔤 Полная поддержка кириллицы / Unicode в именах файлов
 - ✏️ Пользовательские имена выходных файлов
 
 ## 🛠️ Технологии
@@ -86,7 +86,7 @@ Built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://
 - C++17
 - Qt6 (Widgets)
 - CMake
-- Использует [yt-dlp](https://github.com/yt-dlp/yt-dlp) и [ffmpeg](https://ffmpeg.org/) как внешние инструменты — не переписывает логику извлечения
+- Построено на отраслевых стандартах [yt-dlp](https://github.com/yt-dlp/yt-dlp) и [ffmpeg](https://ffmpeg.org/).
 
 ## 🏗️ Требования и сборка
 
@@ -97,7 +97,7 @@ cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -DCMAKE_PREFIX_PATH=C:/Qt/
 cmake --build build --config Release
 ```
 
-Проект рассчитан на C++17, Qt6 Widgets и тулчейн MSVC.
+Приложение рассчитано на C++17, Qt6 Widgets и тулчейн MSVC.
 
 ## 🧪 Тесты
 
@@ -109,3 +109,5 @@ cmake --build build --config Release
 ```
 
 ## 🙏 Благодарности
+
+Построено на основе [yt-dlp](https://github.com/yt-dlp/yt-dlp) и [ffmpeg](https://ffmpeg.org/).
