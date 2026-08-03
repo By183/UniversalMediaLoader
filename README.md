@@ -6,9 +6,9 @@
 
 ## ⬇️ Download
 
-Grab the latest ready-to-run **UniversalMediaLoader.exe** from the Releases page — it's a single self-contained file, no dependencies or extra files needed. Just download and launch.
+Download the **UniversalMediaLoader-v2.0.0-win64.zip** release archive, extract it anywhere, and run **UniversalMediaLoader.exe** — no installation needed, everything required (Qt runtime, plugins, yt-dlp) is included in the folder.
 
-👉 [**⬇️ Download UniversalMediaLoader.exe**](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader.exe)
+👉 [**⬇️ Download UniversalMediaLoader-v2.0.0-win64.zip**](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader-v2.0.0-win64.zip)
 
 ## ✨ Features
 
@@ -64,9 +64,9 @@ Built on top of [yt-dlp](https://github.com/yt-dlp/yt-dlp) and [ffmpeg](https://
 
 ## ⬇️ Скачать
 
-Готовый к запуску **UniversalMediaLoader.exe** можно забрать на странице релизов — это один самодостаточный файл, без зависимостей. Просто скачайте и запустите.
+Скачайте архив **UniversalMediaLoader-v2.0.0-win64.zip**, распакуйте его в любую папку и запустите **UniversalMediaLoader.exe** — установка не требуется, всё необходимое (Qt-рантайм, плагины, yt-dlp) уже находится в папке.
 
-👉 [**⬇️ Скачать UniversalMediaLoader.exe**](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader.exe)
+👉 [**⬇️ Скачать UniversalMediaLoader-v2.0.0-win64.zip**](https://github.com/By183/UniversalMediaLoader/releases/latest/download/UniversalMediaLoader-v2.0.0-win64.zip)
 
 ## ✨ Возможности
 

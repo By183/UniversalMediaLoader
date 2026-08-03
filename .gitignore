@@ -2,6 +2,9 @@
 build/
 /dist/
 /release/
+*.zip
+*.7z
+*.rar
 *.pdb
 *.obj
 *.ilk
